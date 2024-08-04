@@ -1,0 +1,13 @@
+prefix=D:/BMC IISc/venv/Library
+exec_prefix=D:/BMC IISc/venv/Library
+libdir=D:/BMC IISc/venv/Library/lib
+sharedlibdir=D:/BMC IISc/venv/Library/lib
+includedir=D:/BMC IISc/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
